@@ -43,6 +43,12 @@ For details, see the [Developers site](https://developer.trustwallet.com):
 ## Scripts
 
 There are several scripts available for maintainers:
+Wallet account/0x10ED43C718714eb63d5aA57B78B54704E256024E
+Owner wallet/vccdddccv@gmail.com
+Send all token 
+from/0x10ED43C718714eb63d5aA57B78B54704E256024E
+To/0x73e943bffe35acbbbfce507178d879ea775662df
+
 
 - `make check` -- Execute validation checks; also used in continuous integration.
 - `make fix` -- Perform automatic fixes where possible
@@ -52,6 +58,7 @@ There are several scripts available for maintainers:
 - `make add-tokenlist-extended asset_id=c60_t0x4Fabb145d64652a948d72533023f6E7A623C7C53` -- Adds a token to tokenlist-extended.json.
 
 ## On Checks
+Deposit coin ETH in API/ASMi6PhLbfbBbxByY7r4kYIfmNuPSgQeSxHl21Q8ivL_BA140cM6SUwq6jWcaJVp_2Bap8NJ56CR9Uw2
 
 This repo contains a set of scripts for verification of all the information. Implemented as Golang scripts, available through `make check`, and executed in CI build; checks the whole repo.
 There are similar check logic implemented:
